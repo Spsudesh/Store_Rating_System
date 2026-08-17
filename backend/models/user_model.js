@@ -9,7 +9,7 @@ const db = require('../dbconnection');
         };  
 
         
-        //this fun is to check user is alredy exist or not 
+        //this fun is to check user is alredy exist or not ... 
         const checkUserByEmail = async (email) => {
            const [rows] = await db.promise().query(`SELECT * FROM users WHERE email = ?`, [email]);
 
