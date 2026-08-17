@@ -44,4 +44,6 @@ we keep everything to  be simpler .. project is build for practise .
 - JWT Authentication
 - bcrypt
 
-<img width="899" height="1599" alt="WhatsApp Image 2026-08-15 at 12 53 55 PM" src="https://github.com/user-attachments/assets/515dc2a1-9aca-4c04-9160-c61976ac61e7" />
+Database Table design :
+<img width="899" height="815" alt="1" src="https://github.com/user-attachments/assets/b43d949c-9929-46b5-ae75-c2f0e1531d0b" />
+
