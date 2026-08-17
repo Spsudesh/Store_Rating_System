@@ -34,6 +34,14 @@ const Port = process.env.PORT || 3000;
 
 
 app.use(cors());
+
+app.use(cors({
+    origin: "https://store-rating-system-2026.vercel.app",
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization"]
+}));
+
+
 app.use(express.json());
 
 //fro update password
